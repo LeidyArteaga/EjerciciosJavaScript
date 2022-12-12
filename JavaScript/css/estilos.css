@@ -1,0 +1,72 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    text-align: left;
+    color: #FAF7F0;
+    width:1000px;
+    margin: auto;
+    background-color: teal;
+    background-position: center;
+    background-size: cover;
+
+}
+label{
+    font-size: small;
+    padding: 10px;
+}
+
+h1{
+    font-family: fantasy;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+H3{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 6px;
+    color: #59C1BD;
+    background-color: #0D4C92;
+}
+input{
+    background-color: #B9E0FF;
+}
+
+.btn{
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
+        border: 2px solid #0016b0;
+      }  
+      .btn:hover{
+        color: #1883ba;
+        background-color: #ffffff;
+}
+
+.link_activo{
+    text-decoration: underline;
+}
+
+nav a{
+    display: inline-block;
+    width: 150px;
+    background-color: #0D4C92;
+    color: white;
+    border: 2px black solid; /*Grosor Color Estilo: solid, dotted, inset, double ...*/
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px; /*esquina sup-izq, sup-der, inf-der, inf-izq*/
+    padding: 10px;/*margen interna*/
+    margin: 15px; /*margen externa*/
+    box-shadow: 4px 4px 4px rgb(74, 55, 55); /*extension der, extension abajo, desenfoque, color*/
+}
+
+
+
